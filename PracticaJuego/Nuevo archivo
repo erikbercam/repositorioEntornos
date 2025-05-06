@@ -1,0 +1,50 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int vidaHero = 10;
+int vidaEnemy = 10;
+
+int main() {
+    char ataque;
+
+    while (vidaHero > 0 && vidaEnemy > 0) {
+
+        cout << "It's your turn, do you want to attack the enemy? Y/N" << endl;
+        cin >> ataque;
+
+        if (ataque == 'Y' || ataque == 'y') {
+            int damage = rand() % 5;
+            cout << "You have made " << damage << " points of damage to the enemy!" << endl;
+            vidaEnemy -= damage;
+        }
+        else if (ataque == 'N' || ataque == 'n') {
+            cout << "Bad decision, now the enemy can defeat you!" << endl;
+        }
+        else {
+            cout << "Invalid choice, skipping your turn!" << endl;
+        }
+
+      
+        if (vidaEnemy <= 0) {
+            cout << "Congratulations, you defeated the enemy!" << endl;
+            break;
+        }
+
+  
+        cout << "Keep alert, now it's the enemy's turn!" << endl;
+        int damage = rand() % 5;
+        cout << "The enemy has made " << damage << " points of damage to you!" << endl;
+        vidaHero -= damage;
+
+        if (vidaHero <= 0) {
+            cout << "The enemy defeated you, try another time!" << endl;
+            break;
+        }
+        cout << "Hero's health: " << vidaHero << endl;
+        cout << "Enemy's health: " << vidaEnemy << endl;
+    }
+
+    return 0;
+}

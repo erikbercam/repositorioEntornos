@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PracticaJuego\\JuegoPractica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83D601FC-5450-486F-A1EB-C0853968B37E}|JuegoPractica.vcxproj|D:\\PracticaJuego\\JuegoPractica\\JuegoPractica.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83D601FC-5450-486F-A1EB-C0853968B37E}|JuegoPractica.vcxproj|solutionrelative:JuegoPractica.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 294,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JuegoPractica.cpp",
+              "DocumentMoniker": "D:\\PracticaJuego\\JuegoPractica\\JuegoPractica.cpp",
+              "RelativeDocumentMoniker": "JuegoPractica.cpp",
+              "ToolTip": "D:\\PracticaJuego\\JuegoPractica\\JuegoPractica.cpp*",
+              "RelativeToolTip": "JuegoPractica.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-15T10:36:04.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 106,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
